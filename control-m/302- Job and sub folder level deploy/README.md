@@ -1,5 +1,5 @@
 ## How to add/update/delete specific jobs/sub-folders from existing folder
-Customers who want the ability to add/update/delete specific jobs/sub-folders into an existing folder
+Customers who want the to have the ability to add/update/delete specific jobs/sub-folders into an existing folder
 
 Tutorial on the [product web page](https://docs.bmc.com/docs/display/workloadautomation/Tutorial+-+Automating+code+deployment)
 that explains how DevOps engineer can automate code deployment.
