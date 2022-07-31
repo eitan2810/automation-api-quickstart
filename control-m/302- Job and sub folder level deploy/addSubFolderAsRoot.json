@@ -1,0 +1,19 @@
+{
+  "addSubFolderAsRoot": {
+    "Type": "SubFolder",
+    "AdjustEvents": false,
+    "CreatedBy": "emuser1",
+    "When": {
+      "DaysRelation": "OR",
+      "RuleBasedCalendars": {
+        "Included": [
+          "USE PARENT1"
+        ]
+      }
+    },
+    "PathElement": {
+      "Folder": "folder_with_subfolders:subfolders_1",
+      "Server": "LocalControlM"
+    }
+  }
+}

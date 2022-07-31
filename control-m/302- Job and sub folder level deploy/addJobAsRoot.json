@@ -1,0 +1,24 @@
+{
+  "job_at_root_level": {
+    "Type": "Job:Database:EmbeddedQuery",
+    "Application": "Azure",
+    "Query": "select count(*) from A%%PREV.%%DC_ID.JOB;",
+    "ConnectionProfile": "EM",
+    "Host": "sqa",
+    "CreatedBy": "emuser2",
+    "RunAs": "EM",
+    "When": {
+      "WeekDays": [
+        "NONE"
+      ],
+      "MonthDays": [
+        "ALL"
+      ],
+      "DaysRelation": "OR"
+    },
+    "PathElement": {
+      "Folder": "AFolder:BFolder",
+      "Server": "LocalControlM"
+    }
+  }
+}
