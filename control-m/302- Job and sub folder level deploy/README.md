@@ -24,4 +24,6 @@ in order to add jobs or sub folder to spacific folder new path element need to b
 | server  | specifies a Control-M Scheduling Server where to add/update the job/subFolder <br/> a mandatory field  - in case job/subFolder is in the root level <br/> if there is only one server in the system field is not mandatory (like in folder)  |
 | library  | The library is mandatory/needed only in z/os |
 
-
+JSON example:<br/>
+[add specific job](https://github.com/eitan2810/automation-api-quickstart/blob/302--Job-and-sub-folder-level-deploy/control-m/302-%20Job%20and%20sub%20folder%20level%20deploy/addJobAsRoot.json)<br/>
+[add specific sub-folder](https://github.com/eitan2810/automation-api-quickstart/blob/302--Job-and-sub-folder-level-deploy/control-m/302-%20Job%20and%20sub%20folder%20level%20deploy/addSubFolderAsRoot.json)
