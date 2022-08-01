@@ -1,5 +1,4 @@
-## How to add/update/delete specific jobs/sub-folders from existing folder
-Customers who want the to have the ability to add/update/delete specific jobs/sub-folders into an existing folder
+## Adding/update/delete specific jobs/sub-folders from existing folder
 
 Tutorial on the [product web page](https://docs.bmc.com/docs/display/workloadautomation/Tutorial+-+Automating+code+deployment)
 that explains how DevOps engineer can automate code deployment.
@@ -15,7 +14,7 @@ ctm deploy job::delete [Path] [server] [library]
 | library  | The library is mandatory/needed only in z/os |
   
 
-## add specific jobs/sub-folders Cli command example:
+## Adding/updateing specific jobs/sub-folders Cli command example:
 
 in order to add jobs or sub folder to spacific folder new path element need to be added:
 
