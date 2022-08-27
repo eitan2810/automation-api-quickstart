@@ -1,6 +1,9 @@
-## Adding/update/delete specific jobs/sub-folders from existing folder
+## Moving partial flow between environments.
+## Preface
+single consistent approach to deploy/promote workflows.
+allowing customers that require to deploy/promote at the job level and sub folder
+customer will be able to deploy/promote a folder while changing only one or few jobs through Automation-api 
 
-## delete specific job/sub-folders Cli command:
 
 Tutorial on the [delete job](https://docs.bmc.com/docs/automation-api/monthly/deploy-service-1116950327.html#Deployservice-deploy_jobs_deletedeployjob::delete)
 that explains how to delte job/subfolder automate code deployment.
