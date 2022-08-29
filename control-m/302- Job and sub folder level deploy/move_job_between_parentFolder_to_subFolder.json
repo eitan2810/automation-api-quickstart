@@ -1,0 +1,17 @@
+{
+    "Dummy_Job_2" : {
+    "Type" : "Job:Dummy",
+    "CreatedBy" : "emuser1",
+    "RunAs" : "DUMMYUSR",
+    "When" : {
+      "WeekDays" : [ "NONE" ],
+      "MonthDays" : [ "ALL" ],
+      "DaysRelation" : "OR"
+    },
+    "PathElement": {
+        "Folder": "Folder_1:Folder_2",
+        "Server": "LocalControlM"
+    },
+    "Output" : { }
+  }
+  }
