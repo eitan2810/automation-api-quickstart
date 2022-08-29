@@ -1,0 +1,42 @@
+{
+  "Folder_2": {
+  "Type":  "Folder",
+  "ControlmServer": "LocalControlM",
+  "ActiveRetentionPolicy": "CleanEndedOK",
+  "CreatedBy": "emuser1",
+  "When": {
+    "RuleBasedCalendars": {
+      "Included": [
+        "EVERYDAY"
+      ],
+      "EVERYDAY": {
+        "Type": "Calendar:RuleBased",
+        "When": {
+          "DaysRelation": "OR",
+          "WeekDays": [
+            "NONE"
+          ],
+          "MonthDays": [
+            "ALL"
+          ]
+        }
+      }
+    }
+  },
+  "Dummy_Job_2": {
+    "Type": "Job:Dummy",
+    "CreatedBy": "emuser1",
+    "RunAs": "DUMMYUSR",
+    "RerunLimit": {},
+    "When": {
+      "WeekDays": [
+        "ALL"
+      ],
+      "MonthDays": [
+        "ALL"
+      ],
+      "DaysRelation": "OR"
+    }
+  }
+  }
+}
