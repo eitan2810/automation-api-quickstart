@@ -1,7 +1,7 @@
 {
   "Folder_1" : {
     "Type" : "Folder",
-    "ControlmServer" : "LocalControlM",
+    "ControlmServer" : "LocalControlM1",
     "ActiveRetentionPolicy" : "CleanEndedOK",
     "CreatedBy" : "emuser1",
     "When" : {
@@ -30,7 +30,7 @@
   },
   "Folder_2" : {
     "Type" : "Folder",
-    "ControlmServer" : "LocalControlM",
+    "ControlmServer" : "LocalControlM2",
     "ActiveRetentionPolicy" : "CleanEndedOK",
     "CreatedBy" : "emuser1",
     "When" : {
